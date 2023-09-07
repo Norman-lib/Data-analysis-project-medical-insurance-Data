@@ -1,0 +1,14 @@
+The objective of this project is a simple application of what I recently learned in python and data analysis.
+The program does a simple analysis of some insurance data I got from https://www.kaggle.com/datasets .
+Before running the program, you should consider filling in the ROOT, PASSWORD, HOST and DATABASE variables in accordance with your local MySQL environment.
+After filling those fields and making and running the program, it will do the following:
+    - Analyse the data of the file Train_Data.csv by drawing some charts and logging some key statistics.
+    - Generate a new file calles Train_Data_Processed.csv containing the same original data but with some key changes making the data more readable for a computer.
+    - Create a MySQL database locally containing all the data inside the .csv file
+
+The libriaries and concepts I applied in this project are:
+    - Pandas
+    - MySQL
+    - Object-oriented programming in python (OOP)
+    - Encapsulation in python
+    and others...
